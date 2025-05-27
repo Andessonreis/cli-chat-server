@@ -11,7 +11,7 @@ SRC = \
 
 OBJ = $(SRC:.c=.o)
 
-IP = 192.168.0.103
+IP = 172.18.0.1
 PORT = 8996
 
 server: server/logs $(OBJ)
